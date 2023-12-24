@@ -11,6 +11,11 @@
 
 const names = require('./names.js')
 const sayhi = require('./fun.js')
+const arr = require('./person.js')
+const personData = require('./person.js')
 
 sayhi('konain')
 sayhi(names.sadaf)
+console.log(arr.items[0])
+sayhi(arr.items[1])
+sayhi(personData.singlePersonData.name)
