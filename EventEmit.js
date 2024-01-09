@@ -9,4 +9,4 @@ customeEvent.on('response',(name)=>{
     console.log(`name is ${name}`)
 })
 
-customeEvent.emit('response','leo')
+customeEvent.emit('response','doora')
